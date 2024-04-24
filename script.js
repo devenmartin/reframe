@@ -6,7 +6,7 @@ async function generateReframe() {
     const response = await fetch('https://api.openai.com/v1/engines/text-davinci-002/completions', {
         method: 'POST',
         headers: {
-            'Authorization': 'Bearer YOUR_API_KEY_HERE',
+            'Authorization': 'Bearer sk-proj-DdFK6sKucNtf7XWzmqrTT3BlbkFJvXUfjEQmwU5759gElmZ8',
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
